@@ -1,18 +1,10 @@
-*.pt
-*.zip
-*.mp4
-*.avi
-*.jpg
-*.png
 
 __pycache__/
 
 .ipynb_checkpoints/
 
-runs/
 
 wandb/
 
-outputs/
 
 processed_dataset/
