@@ -1,0 +1,27 @@
+{
+    "experiment": {
+        "experiment_name": "Exp01_ImageSize800",
+        "model": "/kaggle/input/models/krishnatheachiever/rtdetr-baseline-experiment/pytorch/default/1/RTDETR_Baseline_Experiment/weights/best.pt",
+        "data": "/kaggle/working/dataset_fixed.yaml",
+        "epochs": 30,
+        "imgsz": 800,
+        "batch": 16,
+        "optimizer": "AdamW",
+        "lr0": 0.0005,
+        "weight_decay": 0.0005,
+        "workers": 4,
+        "patience": 10,
+        "device": 0,
+        "seed": 42,
+        "project": "RTDETR_Model_Refinement",
+        "name": "Exp01_ImageSize800",
+        "amp": true
+    },
+    "results": {
+        "precision": 0.862,
+        "recall": 0.768,
+        "mAP50": 0.831,
+        "mAP50_95": 0.511,
+        "training_time": "5h 22m"
+    }
+}

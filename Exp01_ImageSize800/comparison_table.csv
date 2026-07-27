@@ -1,0 +1,7 @@
+Stage,Starting Model,Modification,Epochs,Precision,Recall,mAP@50,mAP@50-95,Training Time
+Baseline,COCO Pretrained,Initial Training,75,0.891,0.792,0.854,0.541,7h 24m
+Exp01,Baseline best.pt,Image Size = 800,30,0.862,0.768,0.831,0.511,5h 22m
+Exp02,Exp01 best.pt,Data Augmentation,20,,,,,
+Exp03,Exp02 best.pt,Learning Rate Fine-Tuning,20,,,,,
+Exp04,Exp03 best.pt,Additional Optimization,20,,,,,
+Final,Best Model,Final Optimized Model,-,,,,,

@@ -1,0 +1,26 @@
+
+============================================================
+Experiment Summary
+============================================================
+
+Experiment Name : Exp01_ImageSize800
+
+Starting Model  : Baseline best.pt
+
+Modification    : Image Size = 800
+
+Epochs          : 30
+
+Image Size      : 800
+
+Precision       : 0.862
+
+Recall          : 0.768
+
+mAP50           : 0.831
+
+mAP50-95        : 0.511
+
+Training Time   : 5h 22m
+
+============================================================
